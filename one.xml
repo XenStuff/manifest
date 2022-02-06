@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="xenxynon"
+        <remote name="x"
                 fetch="https://github.com/xenxynon" />
-        <remote name="stormbreaker-project" 
-                fetch="https://github.com/LineageOS" />        
+       <remote  name="arrow-gitlab"
+                fetch="https://gitlab.com/arrowos-project"
+                review="https://review.arrowos.net/"
+                revision="refs/heads/arrow-12.1" />
+        <remote name="lab"
+                fetch="https://github.com/xenxynon-lab-404"
+                revision="refs/heads/shinka" />
 
-<!-- device trees -->
 
-        <project path="device/xiaomi/lavender" name="device_xiaomi/lavender" remote="xenxynon" revision="12" clone-depth="1" />
-        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote=xenxynon" revision="12" clone-depth="1" />
+        <!-- Custom Clang -->
+        <remote  name="clang"
+                 fetch="https://github.com/kdrag0n" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
-<!-- kernel -->
-        
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />
 
-<manifest>
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="x" revision="aosp" />
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="x" revision="banger" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="x" revision="A12" />
+        <!-- remove -->
+	<remove-project name="xd_bionic" />
+	<remove-project name="xd_vendor_google_gms" />
+	<remove-project name="xd_hardware_qcom-caf_media" />
+	<remove-project name="xd_hardware_qcom-caf_display" />
+	<remove-project name="xd_hardware_qcom-caf_audio" />
+	<remove-project name="xd_vendor_xdroid" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="twelve" />
+        <!-- reclone -->
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.1-caf-msm8998" />
+        <project path="kabelet_user" name="kabelet_user" remote="x" revision="main" />
+        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="lab" />
+        <project path="bionic" name="android_bionic" remote="x" revision="sc-v2" />
+        <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
+
+</manifest>
