@@ -5,7 +5,7 @@
                 fetch="https://github.com/xenxynon" />
 
         <!-- device trees -->
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="x" revision="x" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="x" revision="arrow" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="x" revision="A12"
         <project path="kernel/xiaomi/lavender" name="AOSP-Krypton/kernel_xiaomi_lavender" remote="github" revision="A12" clone-depth="1" />
 
