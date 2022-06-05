@@ -12,5 +12,5 @@
         <!-- extras -->
         <project path="vendor/lawnchair" name="AOSP-Krypton/vendor_lawnchair" remote="github" revision="A12"  />
         <remove-project name="android_vendor_arrow" />
-        <project path="vendor/arrow" name="android_vendor_arrow" />
+        <project path="vendor/arrow" name="android_vendor_arrow" remote="x" revision="arrow-12.1" />
 </manifest>
