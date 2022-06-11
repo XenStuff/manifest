@@ -15,6 +15,6 @@
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-msm8998" />
-
+        <project path="certs" name="certs" remote="xenxynon" revision="main" />
 
 </manifest>
