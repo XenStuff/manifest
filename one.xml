@@ -37,7 +37,7 @@
   <remove-project name="platform_packages_apps_SyberiaSettings" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="SYBL" revision="12.1"/>
       
-  <remove-project name="platform_vendor_syberia"/>
-  <project path="vendor/syberia" name="platform_vendor_syberia" remote="SYBL" revision="12.1"/>      
+  <remove-project name="platform_vendor_syberia" />
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="SYBL" revision="12.1" />      
       
 </manifest>
