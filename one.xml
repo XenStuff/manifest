@@ -19,7 +19,7 @@
 
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="x" revision="aosp" />
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="x" revision="banger" />
+        <project path="kernel/xiaomi/lavender" name="AOSP-Krypton/kernel_xiaomi_lavender" remote="github" revision="A12" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="x" revision="A12" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
