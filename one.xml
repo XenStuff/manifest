@@ -7,7 +7,10 @@
                 fetch="https://github.com/XenStuff" />
         <remote name="prpr"
                 fetch="https://github.com/ImPrashantt" />
-
+        <remove-project name="vendor_aosp" />
+        <project path="vendor/aosp" name="vendor_aosp-pos" remote="XS" revision="twelve" >
+          <linkfile src="build.sh" dest="rom-build.sh" />
+        </project>
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ll" revision="12.1" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-p" remote="ll" revision="12.1" />
         <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ll" revision="a12-qti" clone-depth="1" />
