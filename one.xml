@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="lab"
+                fetch="https://github.com/xenxynon-lab-404"
+                revision="refs/heads/shinka" />
+
         <remote name="xenxynon"
                 fetch="https://github.com/xenxynon" />
         <remote name="XS"
