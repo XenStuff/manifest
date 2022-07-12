@@ -5,22 +5,20 @@
                 fetch="https://github.com/xenxynon" />
         <remote name="XS"
                 fetch="https://github.com/XenStuff" />
-        <remote name="pixel"
-                fetch="https://github.com/PixelExperience"
-                revision="twelve"
-                review="gerrit.pixelexperience.org" />
+        <remote name="arrow-gitlab"
+               fetch="https://gitlab.com/arrowos-project"
+               review="https://review.arrowos.net/"
+               revision="refs/heads/arrow-12.1" />
         <remote name="arrow"
                 fetch="https://github.com/ArrowOS"
                 review="https://review.arrowos.net" />
-
-
-        <!-- Custom Clang -->
-        <remote  name="clang"
+        <remote  name="kdragon"
                  fetch="https://github.com/kdrag0n" />
  
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
 
-
+        <remove-project name="android_vendor_lineage" />
+        <remove-project name="android_vendor_gms" />
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xenxynon" revision="flos" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="A12" />
         <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-pred" remote="XS" revision="A12" clone-depth="1" />
@@ -30,4 +28,6 @@
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="XS" revision="twelve" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+        <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
+       <project path="vendor/lineage" name="android_vendor_lineage" remote="xenxynon" revision="lineage-19.1" />
 </manifest>
