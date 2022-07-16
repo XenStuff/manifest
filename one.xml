@@ -15,4 +15,5 @@
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="A12" />
         <project path="kernel/xiaomi/lavender" name="AOSP-Krypton/kernel_xiaomi_lavender" remote="github" revision="A12" clone-depth="1" />
         <remove-project name="android_device_qcom_sepolicy"/>
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="xenxynon" revision="fuse"/>
 </manifest>
