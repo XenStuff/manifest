@@ -11,5 +11,5 @@
         <project path="keys" name="certs" remote="xenxynon" revision="pa" />
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xenxynon" revision="fuse" >
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="SDM" />
-        <project path="kernel/xiaomi/lavender" name="AOSP-Krypton/kernel_xiaomi_lavender" remote="github" revision="A12" clone-depth="1" />
+        <project path="kernel/xiaomi/lavender" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" clone-depth="1" />
 </manifest>
