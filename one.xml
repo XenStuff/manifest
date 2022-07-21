@@ -9,7 +9,7 @@
                  fetch="https://github.com/kdrag0n" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
         <project path="keys" name="certs" remote="xenxynon" revision="pa" />
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xenxynon" revision="fuse" >
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="xenxynon" revision="fuse" >
           <linkfile src="fuse_sign.sh" dest="fuse_sign.sh" />
         </project>
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="A12" />
