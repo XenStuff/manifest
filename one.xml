@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="chutad"
+                fetch="https://github.com/baka-hokage" />
         <remote name="x"
                 fetch="https://github.com/xenxynon" />
         <remote name="lab"
@@ -11,9 +13,10 @@
                  fetch="https://github.com/kdrag0n" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="x" revision="aosp" />
-        <project path="kernel/xiaomi/lavender" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" />
-        <project path="vendor/xiaomi/lavender" name="xenxynon/vendor_xiaomi_lavender" remote="github" revision="master" />
+        <project path="device/xiaomi/sdm845-common" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
+        <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
+        <project path="kernel/xiaomi/sdm845" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" />
+        <project path="vendor/xiaomi" name="vendor_xiaomi" remote="chutad" revision="12.1" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
 	<remove-project name="xd_hardware_qcom-caf_media" />
