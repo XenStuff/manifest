@@ -15,7 +15,7 @@
 
         <project path="device/xiaomi/sdm845-common" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
         <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
-        <project path="kernel/xiaomi/sdm845" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" />
+        <project path="kernel/xiaomi/sdm845" name="crdroidandroid/android_kernel_xiaomi_sdm845" remote="github" revision="12.1-silver" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="chutad" revision="12.1" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
