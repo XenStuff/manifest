@@ -19,16 +19,9 @@
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="chutad" revision="12.1" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
-	<remove-project name="xd_hardware_qcom-caf_media" />
-	<remove-project name="xd_hardware_qcom-caf_display" />
-	<remove-project name="xd_hardware_qcom-caf_audio" />
 	<remove-project name="xd_vendor_xdroid" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="twelve" />
         <!-- reclone -->
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.1-caf-msm8998" />
         <project path="official-settings" name="mm" remote="x" revision="twelve" />
         <project path="bionic" name="android_bionic" remote="x" revision="sc-v2" />
-
 </manifest>
