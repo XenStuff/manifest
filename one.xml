@@ -20,7 +20,7 @@
 	<remove-project name="xd_hardware_qcom-caf_display" />
 	<remove-project name="xd_hardware_qcom-caf_audio" />
 	<remove-project name="xd_vendor_xdroid" />
-        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="twelve" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="lavender" />
         <!-- reclone -->
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-caf-msm8998" />
