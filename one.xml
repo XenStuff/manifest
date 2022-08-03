@@ -9,13 +9,11 @@
                 fetch="https://github.com/xenxynon-lab-404"
                 revision="refs/heads/shinka" />
 
-        <project path="frameworks/base" name="XenStuff/xd_frameworks_base" remote="github" revision="twelve" />
         <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="x" revision="12.1" />
         <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
         <project path="kernel/xiaomi/sdm845" name="crdroidandroid/android_kernel_xiaomi_sdm845" remote="github" revision="12.1-silver" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="chutad" revision="12.1" />
         <!-- remove -->
-	<remove-project name="xd_frameworks_base" />
 	<remove-project name="xd_bionic" />
 	<remove-project name="xd_vendor_xdroid" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="twelve" />
