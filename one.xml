@@ -16,7 +16,7 @@
         <!-- remove -->
 	<remove-project name="xd_bionic" />
 	<remove-project name="xd_vendor_xdroid" />
-        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="twelve" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="x" revision="bery" />
         <!-- reclone -->
         <project path="official-settings" name="mm" remote="x" revision="twelve" />
         <project path="bionic" name="android_bionic" remote="x" revision="sc-v2" />
