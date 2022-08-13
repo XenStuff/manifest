@@ -12,7 +12,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="x" revision="aosp" />
-        <project path="kernel/xiaomi/lavender" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" />
+        <project path="kernel/xiaomi/lavender" name="xenxynon-AOSPA/msm-4.4" remote="github" revision="no-headers" />
         <project path="vendor/xiaomi/lavender" name="xenxynon/vendor_xiaomi_lavender" remote="github" revision="master" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
