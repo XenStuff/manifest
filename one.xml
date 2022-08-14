@@ -12,7 +12,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="x" revision="aosp" />
-        <project path="kernel/xiaomi/lavender" name="xenxynon-AOSPA/msm-4.4" remote="github" revision="no-headers" />
+        <project path="kernel/xiaomi/lavender" name="AOSP-Krypton//kernel_xiaomi_lavender" remote="github" revision="A12" />
         <project path="vendor/xiaomi/lavender" name="xenxynon/vendor_xiaomi_lavender" remote="github" revision="master" />
         <!-- remove -->
 	<remove-project name="xd_bionic" />
@@ -20,7 +20,7 @@
 	<remove-project name="xd_hardware_qcom-caf_display" />
 	<remove-project name="xd_hardware_qcom-caf_audio" />
 	<remove-project name="xd_vendor_xdroid" />
-        <project path="vendor/xdroid" name="AOSP-Krypton/xd_vendor_xdroid" remote="github" revision="A12" />
+        <project path="vendor/xdroid" name="XenStuff/xd_vendor_xdroid" remote="github" revision="twelve" />
         <!-- reclone -->
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-caf-msm8998" />
