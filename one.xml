@@ -19,6 +19,9 @@
 	<remove-project name="xd_hardware_qcom-caf_media" />
 	<remove-project name="xd_hardware_qcom-caf_display" />
 	<remove-project name="xd_hardware_qcom-caf_audio" />
+	<remove-project name="xd_vendor_xdroidui" />
+	<remove-project name="xd_vendor_google_gms" />
+        <project path="vendor/xdroidui" name="XenStuff/xd_vendor_xdroidui" remote="github" revision="twelve" />
 	<remove-project name="xd_vendor_xdroid" />
         <project path="vendor/xdroid" name="XenStuff/xd_vendor_xdroid" remote="github" revision="twelve" />
         <!-- reclone -->
