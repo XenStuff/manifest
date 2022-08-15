@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="gitlab"
+  <remote  name="aba"
            revision="12.1"
            fetch="https://gitlab.com/Project-Awaken/" />
+
 
         <remote name="x"
                 fetch="https://github.com/xenxynon" />
@@ -13,7 +14,7 @@
         <remote  name="clang"
                  fetch="https://github.com/kdrag0n" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="aba" clone-depth="1" />
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="x" revision="aosp" />
         <project path="kernel/xiaomi/lavender" name="AOSP-Krypton//kernel_xiaomi_lavender" remote="github" revision="A12" />
