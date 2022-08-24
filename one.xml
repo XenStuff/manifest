@@ -12,7 +12,6 @@
         <remote  name="clang"
                  fetch="https://github.com/kdrag0n" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-        <project path="vendor/gms" name="xenxynon/vendor_gms-derp" remote="gitlab" revision="12.1" clone-depth="1" />
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="xenxynon" revision="derp" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="A12" />
         <project path="kernel/xiaomi/lavender" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="github" revision="a12-qti" clone-depth="1" />
