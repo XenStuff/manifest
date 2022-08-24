@@ -20,5 +20,6 @@
         <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rice" />
         <remove-project name="packages/apps/Messaging" />
         <remove-project name="vendor_gms" />
+        <project path="vendor/gms" name="xenxynon/vendor_gms-derp" remote="gitlab" revision="12.1" clone-depth="1" />
 
 </manifest>
