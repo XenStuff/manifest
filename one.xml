@@ -9,7 +9,7 @@
         <remote name="XS"
                 fetch="https://github.com/XenStuff" />
         <remove-project name="platform/packages/apps/Messaging" />
-        <remove-project name="vendor_gms" />
+        <remove-project name="DerpFest/vendor_gms" />
         <remove-project name="platform/packages/apps/Dialer" />
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="xenxynon" revision="derp" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="xenxynon" revision="A12" />
