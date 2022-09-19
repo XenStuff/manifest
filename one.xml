@@ -11,7 +11,7 @@
 
         <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="x" revision="13" />
         <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="x" revision="12.1" />
-        <project path="kernel/xiaomi/sdm845" name="Dhruvgera/Rockstarkernel_beryllium" remote="github" revision="master" />
+        <project path="kernel/xiaomi/sdm845" name="xeesan/kernel_xiaomi_sdm845" remote="github" revision="master" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="x" revision="13" />
         <project path="overlay" name="k" remote="x" revision="master" />
 </manifest>
