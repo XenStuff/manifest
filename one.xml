@@ -24,6 +24,7 @@
         <project path="vendor/xiaomi/lavender" name="pix106/android_vendor_xiaomi_lavender" revision="12-4.19" remote="github" />
         <project path="vendor/xiaomi/sdm660-common" name="lavender-vendor" revision="common-conquer" remote="xlavender" />
         <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" revision="main" remote="xenxynon" />
-        <project path="S" name="S" remote="XS" revision="main" clone-depth="1" >
+        <project path="S" name="S" revision="main" remote="XS" >
         <linkfile src="make.sh" dest="rom-build.sh" />
+
 </manifest>
