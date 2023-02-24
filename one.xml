@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="xenxynon"
+        <remote name="x"
                 fetch="https://github.com/xenxynon" />
         <remote name="p-l"
            fetch="https://github.com/AOSPA-Lavender"
@@ -15,5 +15,6 @@
        <project path="vendor/aospa" name="android_vendor_aospa" remote="p-l" >
           <linkfile src="build.sh" dest="rom-build.sh" />
        </project>
+       <project path="certs" name="certs" remote="x" revision="12" />
        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="p-l" revision="topaz" />
 </manifest>
