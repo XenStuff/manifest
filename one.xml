@@ -3,25 +3,17 @@
 
         <remote name="xenxynon"
                 fetch="https://github.com/xenxynon" />
-       <remote  name="blob-pa"
-           fetch="https://github.com/ThankYouMario"
+        <remote name="p-l"
+           fetch="https://github.com/AOSPA-Lavender"
            revision="topaz" />
 
 
-       <remove-project name="android_vendor_qcom_opensource_commonsys" />
-       <remove-project name="android_vendor_qcom-opensource_display-commonsys" />
-      <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="github" />
-       <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" >
-            <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-            <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
+       <remove-project name="android_frameworks_base" />
+       <remove-project name="android_vendor_aospa" />
+       <remove-project name="android_packages_apps_Settings" />
+       <project path="frameworks/base" name="android_frameworks_base" remote="p-l" revision="topaz" />
+       <project path="vendor/aospa" name="android_vendor_aospa" remote="p-l" >
+          <linkfile src="build.sh" dest="rom-build.sh" />
        </project>
-        <project path="device/nothing/spacewar" name="p404-N" remote="xenxynon" revision="topaz" />
-        <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blob-pa" revision="topaz" />
-        <project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="blob-pa" revision="topaz" />
-        <project path="kernel/msm-5.4" name="AOSPA/android_kernel_nothing_sm7325" remote="github" revision="topaz" clone-depth="1" />
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="topaz-888" />
-        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="topaz-888" />
-        <project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="topaz-888" />
-        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-888" />
-        <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="github" revision="topaz" />
+       <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="p-l" revision="topaz" />
 </manifest>
