@@ -7,14 +7,6 @@
            fetch="https://github.com/ThankYouMario"
            revision="topaz" />
 
-
-       <remove-project name="android_vendor_qcom_opensource_commonsys" />
-       <remove-project name="android_vendor_qcom-opensource_display-commonsys" />
-      <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="github" />
-       <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" >
-            <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-            <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-       </project>
         <project path="device/nothing/spacewar" name="p404-N" remote="xenxynon" revision="topaz" />
         <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blob-pa" revision="topaz" />
         <project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="blob-pa" revision="topaz" />
